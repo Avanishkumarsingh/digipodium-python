@@ -1,7 +1,11 @@
 num = int(input('enter value:'))
-if num%5 == 0 and num%7 == 0:
-    print('yes its devisible by this num')
+if num%4 ==0 and num%5 ==0:
+    print('yes its divided by this num')
 else:
-    print('no its not divisible')
+    print ('its not divided')
 
-
+num = int (input('enter num:'))
+if num%2 == 0 and num%2 == 0:
+    print ('even')
+else :
+    print ('odd')

@@ -1,18 +1,19 @@
-username = input('enter user name:')
-email = input('enetr email:')
-pwd = input('enter password:')
-cpwd = input('confirm password:')
+username = input("enter username:")
+email = input("enter email:")
+pwd = input("enter password:")
+cpsw = input("confirm password:")
 
-if len(username) > 0 and username.isalnum():
-    if len(email) > 0 and '@' in email:
-        if len(pwd)>=4:
-            if pwd == cpwd:
-                print('registration successful')
+if len (username) > 0  and username .isalnum():
+    if len (email) > 0 and '@' in email :
+        if len(pwd) >= 5:
+            if cpsw == pwd:
+                print('registraion sucessfull')
+
             else:
-                print('password do not match')
+                print('password does not match')
         else:
-             print('password must be at least 4 character')
+            print('password must be at leas 5 character')
     else:
-        print('invalid email')
-else:
-    print('username is invalid')
+        print('envalid email')
+else :
+    print ('envalid username')
