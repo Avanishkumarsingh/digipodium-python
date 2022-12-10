@@ -6,19 +6,18 @@ msg_title = msg.title()
 msg_swp = msg.swapcase()
 msg_cf = msg.casefold() # same as lower
 print(msg)
-print(msg_upr)
 print(msg_lwr)
 print(msg_cap)
 print(msg_title)
 print(msg_swp)
 print(msg_cf)
 
-# alignment
-print(msg.ljust(100,'_'))
+# aligment
+print(msg.ljust(100,'-'))
 print(msg.rjust(100))
 print(msg.center(100))
 
-# alignment with f-string on padding
-print(f"{msg:>50}") # same as rjust
-print(f"{msg:<50}") # same as ljust
-print(f"{msg:^50}") # same as center
+# aligment with f-string on padding
+print(f"{msg:>50}") #same as rjust
+print(f"{msg:<50}") #same as ljust
+print(f"{msg:^50}") #same as center

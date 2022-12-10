@@ -1,5 +1,5 @@
-movies = ['Dhol','Bahubali','Jab tak hai jaan','Pk']
-stars = ['⭐⭐⭐⭐','⭐⭐⭐⭐⭐','⭐','⭐⭐⭐⭐⭐']
+movies = ['bahubali','kantara','avatar','one man army','jabtak hai jaan','pk','pad man']
+stars = ['⭐⭐⭐⭐⭐','⭐⭐⭐','⭐⭐⭐⭐','⭐⭐⭐','⭐⭐⭐','⭐⭐','⭐⭐⭐⭐']
 
-for movie,star in zip(movies, stars):
-    print(f'{movie:<16} {star}') 
+for movie,star in zip(movies,stars):
+    print(f'{movie:<18} {star}')
