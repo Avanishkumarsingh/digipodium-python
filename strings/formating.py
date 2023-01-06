@@ -6,6 +6,7 @@ msg_title = msg.title()
 msg_swp = msg.swapcase()
 msg_cf = msg.casefold() # same as lower
 print(msg)
+print(msg_upr)
 print(msg_lwr)
 print(msg_cap)
 print(msg_title)

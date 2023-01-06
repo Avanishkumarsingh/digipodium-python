@@ -12,7 +12,7 @@ print(f'1 occurs {c1} times in x')
 x.sort() # sorts x in ascending order
 print(x)
 x.sort(reverse=True) # sorts x in descending order
-print(y)
+print(x)
 y.reverse() # reverses the order of y same as y[::-1]
 print(y)
 
