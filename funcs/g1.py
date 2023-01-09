@@ -9,7 +9,7 @@ rect2 = Rect((250,250), (50,100))
 def draw():
     screen.fill('white')
     screen.draw.filled_rect(rect, 'red')
-    screen.draw.filled_rect2(rect2, 'green')
+    screen.draw.filled_rect(rect2, 'green')
 
 # code will here
 pgzrun.go() # must be last line
