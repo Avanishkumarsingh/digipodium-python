@@ -11,7 +11,7 @@ print(x)
 y = [23,54,45]
 x.append(y)
 print(x)
-x.extend(y)
+x.extend(y) # it will add the last 
 print(x)
 x.insert(2,9)
 print(x)
