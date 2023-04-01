@@ -12,12 +12,12 @@ while cam.isOpened():
     rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HLS)
     gray3 = np.stack((gray,)*3, axis=-1)
-    # grid display
+    #grid display
     row1 = np.hstack((img, rgb))
     row2 = np.hstack((gray3, hsv))
-    output = np.vstack((row1, row2))
+    output = np.hstack((row1, row2))
     cv2.imshow("out", output)
-    if cv2.waitKey(1) ==27:
+    if cv2.waitKey(1) == 27:
         break
 cam.release()
-cv2.destroyAllWindows()
+cv2.destroyAllWindows()    
