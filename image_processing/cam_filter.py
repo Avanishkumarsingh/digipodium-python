@@ -15,7 +15,7 @@ while cam.isOpened():
     #grid display
     row1 = np.hstack((img, rgb))
     row2 = np.hstack((gray3, hsv))
-    output = np.hstack((row1, row2))
+    output = np.vstack((row1, row2))
     cv2.imshow("out", output)
     if cv2.waitKey(1) == 27:
         break
